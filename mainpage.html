@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="environet.com" content="IE=edge">
+  <meta name="environet" content="width=device-width, initial-scale=1.0">
+
+  <title>Environet</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="images/xicon" href="C:/Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/images/imgtitlebar.png">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <img src= "./images/logo.png" class="logo">
+
+    <ul class="nav-links">
+      <li class="active"><a href="C:/Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/mainpage.html"></a>Home</li>
+      <li><a href="C:Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/whygogreen.html">Why Go Green?</a></li>
+      <li>
+        <a  href="C:/Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/protect.html">How you can help</a>
+      </li>  
+    </ul>
+    <img src="./images/menubutton.png" class="menu-btn">
+  </nav>
+  <header>
+    <div class="header-content">
+      <h2> "Flip the switch, turn green: Small choices, big Earth-loving impact!"      </h2>
+      <a href="C:/Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/protect.html" class="ctn">Learn More</a>
+      
+    </div>
+  </header>
+
+  <section class="sec2">
+    <div class="title">
+      <h1>Damage we have caused</h1>
+      <div class="line"></div> 
+    </div>
+    <div class="row">
+      <div class="col1">
+          <p>Human actions have had a profound impact on the environment. With our technological advancements, we have been able to create more efficient systems and improve our standard of living. However, this progress has also come at a cost to the planet. Our industrial activities have contributed to air and water pollution, deforestation, and climate change. These actions have had a negative effect on the environment, disrupting natural habitats and causing harm to various species of plants and animals.</p>
+          <a href="C:Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/whygogreen.html" class="ctn">Learn More</a>
+      </div>
+      <div class="col2">
+        <img src="./images/sec2img.png" class="sec2img"> 
+    </div>
+      
+    </div>
+  </section>
+  <section class="sec3">
+    <div class="sec3-ctn">
+      <h1>Protect Our Environment</h1>
+      <div class="line"></div>
+      <h2>"Cherish our planet – it's not just a choice, it's our common responsibility for a brighter, greener legacy."      </h2>
+    </div>
+  </section>
+
+  <section class="sec4">
+    <div class="row">
+      <div class="col content-col">
+        <h1>Sustainable Methods</h1>
+        <div class="line"></div>
+        <p>It is essential to recognize the impact of our actions and take steps to mitigate and reverse the damage. By adopting sustainable practices, such as reducing waste, conserving energy, and promoting renewable resources, we can minimize our ecological footprint. Conservation efforts, such as protecting natural habitats and implementing effective waste management systems, are crucial for preserving biodiversity and restoring ecosystems.
+        </p>
+        <a href="C:/Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/protect.html" class="ctn"> Learn More</a>
+      </div>
+      <div class="col image-col">
+        <div class="image-gallery">
+          <img src="./images/trees.png" alt="">
+          <img src="./images/sustainable.png" alt="">
+          <img src="./images/thrift.png" alt="">
+          <img src="./images/water.png" alt="">
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="col1">
+      <h3>USEFUL LINKS</h3>
+      <a href="C:Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/whygogreen.html">Why Go Green?</a>
+      <a href="C:/Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/protect.html">How you can help</a>
+    </div>
+    <div class="col2">
+      <h3> NEWSLETTER</h3>
+      <form>
+        <input type="email" placeholder="Your Email Adress" required><br>
+        <Button type="submit">SUBSCRIBE NOW</Button>
+      </form>
+    </div>
+
+  </section>
+
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+      navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+</body>
+</html>

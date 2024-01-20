@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="environet.com" content="IE=edge">
+  <meta name="environet" content="width=device-width, initial-scale=1.0">
+
+  <title>Environet</title>
+  <link rel="stylesheet" href="style3.css">
+  <link rel="icon" type="images/xicon" href="C:/Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/images/imgtitlebar.png">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <img src= "./images/logo.png" class="logo">
+
+    <ul class="nav-links">
+      <li><a href="C:/Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/mainpage.html">Home</a></li>
+      <li class="active"><a href="C:Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/whygogreen.html">Why Go Green?</a></li>
+      <li>
+        <a  href="C:/Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/protect.html">How you can help</a>
+      </li>
+      
+    </ul>
+    <img src="./images/menubutton.png" class="menu-btn">
+  </nav>
+
+  <header>
+    <div class="headerctn">
+      <h1>Human Impact on the Environment: Unveiling the Consequences of Our Actions</h1>
+    </div>
+  </header>
+
+  <section class="sec1">
+    <div class="row">
+      <div class="col1">
+        <p>
+        Human actions have had a profound impact on the environment. With our technological advancements, we have been able to create more efficient systems and improve our standard of living. However, this progress has also come at a cost to the planet. Our industrial activities have contributed to air and water pollution, deforestation, and climate change. These actions have had a negative effect on the environment, disrupting natural habitats and causing harm to various species of plants and animals.<br><br>
+        
+        On the other hand, there are also positive ways in which humans have influenced the environment. Our efforts to create renewable energy sources and implement sustainable practices show that we are aware of the impact of our actions and are taking steps to reduce our footprint. It is important for us to find a balance between progress and preservation in order to ensure a sustainable future for our planet. </p>
+      </div>
+      <div class="col2">
+      <img src="./images/solarpanels.png" alt="">
+      </div>
+    </div>
+  </section>
+  
+  <h1 class="h1sec2">Causes of Environmental Damage</h1>
+  <div class="line"></div>
+
+  
+  <section class="sec2">
+    <div class="sec2col1">
+      <div class="box">
+        <img src="./images/deforestation.png">
+        <p>
+        The clearing of forests for agriculture, logging, and urbanization leads to habitat loss, soil erosion, and contributes to climate change.      </p>
+      </div>
+
+      <div class="box">
+        <img src="./images/agriculture.png">
+        <p>
+          Intensive agriculture leads to environmental damage through excessive use of chemical fertilizers and pesticides, soil degradation, water pollution, and loss of biodiversity.
+        </p>
+      </div>
+    </div>
+    <div class="sec2col2">
+      <div class="box">
+        <img src="./images/pollution.png">
+        <p>
+        Various forms of pollution, including air pollution from and vehicle exhaust, water pollution from industrial waste , and etc.. have detrimental effects on ecosystems and human health.      </p>
+      </div>
+      <div class="box">
+        <img src="./images/overpopullation.png">
+        <p>
+          Rapid population growth puts pressure on natural resources, leading to overconsumption, habitat destruction, and increased waste generation.
+        </p>
+      </div>
+
+    </div>
+    <div class="sec2col3">
+      <div class="box">
+        <img src="./images/waste.png">
+        <p>
+        The production and improper disposal of waste, including plastic waste, contribute to pollution, harm wildlife, and pose risks to human health.
+        </p>
+      </div>
+      <div class="box">
+        <img src="./images/mining.png">
+        <p>
+        Extraction of minerals and metals leading to habitat destruction and pollution.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  
+
+
+  <section class="sec3">
+    <h1>A Guide to Safeguarding Our Environment</h1>
+    <p>Protecting the environment is crucial for the well-being of our planet. One way to contribute is by reducing our carbon footprint. This can be done by utilizing renewable energy sources, such as solar or wind power, instead of relying on fossil fuels. Additionally, practicing sustainable consumption habits, such as recycling and reusing items, can help decrease waste production. It is also important to preserve and restore natural habitats, as they provide essential ecosystems services. Supporting environmental organizations and advocating for policies that promote conservation are further effective ways to protect our environment. By making these conscious choices and adopting environmentally-friendly practices, we can contribute to ensuring a healthier and sustainable future for our planet.</p><br>
+    <a href="C:/Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/protect.html" class="ctn">Learn More</a>
+  </section>
+
+  
+  <section class="footer">
+    <div class="col1">
+      <h3>USEFUL LINKS</h3>
+      <a href="C:Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/whygogreen.html">Why Go Green?</a>
+      <a href="C:/Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/protect.html">How you can help</a>
+    </div>
+    <div class="col2">
+      <h3> NEWSLETTER</h3>
+      <form>
+        <input type="email" placeholder="Your Email Adress" required><br>
+        <Button type="submit">SUBSCRIBE NOW</Button>
+      </form>
+    </div>
+
+  </section>
+
+
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+      navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+</body>
+</html>

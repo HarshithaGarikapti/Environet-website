@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation Bar */
+ul {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content:center;
+  padding: 5px;
+  color:  white;
+  background-color: #c2c88d;
+}
+.nav-links .li ul.dropdown li {
+  display: block;
+}
+.nav-links li ul.dropdown {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+.nav-links li:hover ul.dropdown {
+  display: block;
+}
+.nav-links li a {
+  color: white;
+  padding: 2.5px;
+}
+.active {
+  background-color: #fc036b;
+}
+.nav-links ul li ul li {
+  background-color: aliceblue;
+}
+.nav-links li a:hover{
+  background-color: #fc036b;
+  color: white;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  font-family: Poppins;
+}
+.nav-links li {
+  margin: 0 70px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.logo {
+  width: 250px;
+}
+
+/* Section 1 Content/Header */
+header {
+  width: 85%;
+  height: 60vh;
+  margin-left: 16.6vh;
+  margin-top: 20.2vh;
+  background-image: url("C:/Users/srega/Dropbox/PC/Downloads/HARSHITHA/Enviroment website/images/protect1.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content:center;
+  align-items: flex-end;
+}
+.header-content {
+  margin-left: 1.3vh;
+  margin-bottom: 23vh;
+  color: white;
+  text-align:left;
+}
+.header-content h1 {
+  font-size: 5.4vh;
+}
+.line {
+  width: 25.2vh;
+  height: 0.7vh;
+  background: #fc036b;
+  margin: 1.75vh auto;
+  border-radius: 0.68vh;
+}
+.ctn {
+  padding: 1.08vh 2.04vh;
+  background-color: #fc036b;
+  border-radius: 4.09vh;
+  color: whitesmoke;
+  font-family: Poppins;
+ 
+}
+.menu-btn {
+  position: absolute;
+  top: 10.22vh;
+  right: 4.09vh;
+  width: 5.45vh;
+  cursor: pointer;
+  display: none;
+}
+
+ /* Section 2 */
+.sec2 {
+  width: 85%;
+  padding: 7.49vh;
+  margin-left: 29.97vh;
+}
+
+.sec2ctn p {
+  font-size: 1.98vh;
+  width: 85%;
+}
+.sec2ctn p b {
+  font-size: 2.36vh;
+  color: #324984;
+}
+.sec2 h1 {
+  color: #285529;
+}
+
+ /* Section 3 */
+
+ .save2 p{
+  width: 93%;
+  line-height: 3.68vh;
+}
+.save2 {
+  background-color:#ededfa ;
+  padding: 13.62vh;
+}
+
+ /* Section 4 */
+.sec4 {
+  top: 27.25vh;
+  padding: 5.45vh;
+ }
+.sec4 h1{
+  color: #200040 ;
+ }
+.sec4 b {
+  color: #200040 ;
+ }
+.save1 {
+  position: absolute;
+  background-color: whitesmoke;
+  left: 47.68vh;
+  margin-top: 13.62vh;
+  padding: 9.54vh;
+ }
+ .imgsec4 img {
+  width: 70vh;
+  height: 70vh;
+ }
+
+/* Srction 5 */
+.sec5 .save2 {
+  background-color: 	#faf3ee;
+}
+
+/* Section 6*/
+
+.sec6 {
+  top: 27.25vh;
+  padding: 5.45vh;
+}
+.save3 {
+  position: absolute;
+  background-color: whitesmoke;
+  right: 47.68vh;
+  margin-top: 13.62vh;
+  padding: 9.54vh;
+}
+.imgsec6 img{
+  width: 70vh;
+  height: 70vh;
+  margin-left: 125.34vh;
+}
+.sec6 h1  {
+  color:#2e1300 ;
+}
+.sec6 b {
+  color:#2e1300 ;
+}
+
+/* Section 7*/
+.sec7 .save2 {
+  background-color: rgb(228, 238, 244);
+}
+
+/*Section 8*/
+.sec8 {
+  top:27.25vh;
+  padding: 5.45vh;
+ }
+.sec8 h1 {
+  color:rgb(0, 40, 66) ;
+}
+.sec8 p b {
+  color:rgb(1, 54, 87) ;
+}
+
+/*Section 9*/
+.sec9 .save2 {
+  background-color: #f7ecf1;
+  margin-bottom:5.45vh;
+}
+
+
+/* Footer */
+.footer {
+  width: 100%;
+  padding: 50px 10%;
+  background: #c2c88d;
+  color: #F0F2EA;
+  display: flex;
+  font-family: Poppins;
+  margin-bottom: 0;
+}
+.footer div {
+  text-align: center;
+}
+.footer .col2{
+  margin-left: 550px;
+}
+.footer .col1{
+  margin-left: 50px;
+}
+.footer div h3 {
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+.col1 a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+}
+form input {
+  width: 300px;
+  height: 35px;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+}
+form button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #F0F2EA;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.ctn:hover {
+  background: whitesmoke; 
+  color: #fc036b;
+  box-shadow: 2px 2px 5px #00000056;
+}
+.nav-links:hover {
+  cursor: pointer;
+}
+
+/* Phone view */
+@media only screen and (max-width:850px){
+  .menu-btn {
+    display: block;
+  }
+  .navbar {
+    padding:0;
+  }
+  .logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  .nav-links{
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background:#c2c88d;
+    margin-top: -900px;
+    transition: all 00.5s ease;
+  }
+  .mobile-menu {
+    margin-top: 0px;
+    border-bottom-right-radius: 30%;
+  }
+  .nav-links li {
+    margin: 30px auto;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+  .row .col {
+    margin: 20px auto;
+  }
+  .col img {
+    max-width: 90%;
+  }
+
+  .sec3-ctn {
+    width: 100%;
+  }
+
+  .sec4 .col {
+    width: 100%;
+  }
+  .image-gallery {
+    justify-content: center;
+    align-items: center;
+  }
+  .image-gallery img {
+    width: 90%;
+  }
+
+}
+
+/*ANIMATIONS*/
+img{
+  transition: transform 1s ease;
+}
+
+.ctn:hover {
+
+  background: whitesmoke; 
+  color: #fc036b;
+  box-shadow: 2px 2px 5px #00000056;
+}
+.nav-links:hover {
+  cursor: pointer;
+}
